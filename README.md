@@ -15,12 +15,11 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 <h1>l'arborescence du dossier:</h1>
 
 <h3>ultimate_townhall</h3>
-`
 ```console
 foo@bar:~$ whoami
 foo
 ```
-
+`
 .ultimate_townhall
 ├── .gitignore
 ├── Gemfile
