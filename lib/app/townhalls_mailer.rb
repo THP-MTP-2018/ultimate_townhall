@@ -2,7 +2,7 @@ require 'gmail'
 require 'gmail_xoauth'
 require 'mail'
 
-
+#connexion  
 gmail = Gmail.connect("lescorsairesdemontpellier@gmail.com", "thpmtp2018")
 
 gmail.deliver do
