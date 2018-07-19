@@ -1,5 +1,5 @@
 require 'json'
-require_relative "/Users/radorakoto/Documents/jeudi_19_07/ultimate_townhall/lib/app/townhalls_scrapper.rb"
+require_relative "townhalls_scrapper.rb"
 
 class To_JSON
   attr_accessor :hash_mail
@@ -24,17 +24,17 @@ class To_JSON
 end
 
 def perform
-  # adder = To_JSON.new
-  # adder.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/herault.html", "herault")
-  # adder.write_JSON("/Users/radorakoto/Documents/jeudi_19_07/ultimate_townhall/db/herault.json", adder.hash_mail)
-  # adder2 = To_JSON.new
-  # adder2.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/aude.html", "aude")
-  # adder2.write_JSON("/Users/radorakoto/Documents/jeudi_19_07/ultimate_townhall/db/aude.json", adder2.hash_mail)
+  adder = To_JSON.new
+  adder.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/herault.html", "herault")
+  adder.write_JSON("../../db/herault.json", adder.hash_mail)
+
+  adder2 = To_JSON.new
+  adder2.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/aveyron.html", "aveyron")
+  adder2.write_JSON("../../db/aveyron.json", adder2.hash_mail)
+
   adder3 = To_JSON.new
   adder3.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/gard.html", "gard")
-  adder3.write_JSON("/Users/radorakoto/Documents/jeudi_19_07/ultimate_townhall/db/gard.json", adder3.hash_mail)
-
-
+  adder3.write_JSON("../../db/gard.json", adder3.hash_mail)
 end
 
 perform
