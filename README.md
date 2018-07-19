@@ -75,3 +75,8 @@ app.rb (lance les différents programme)
 -rubocop
 <br>
 -pry
+
+
+<h2>ce qui a été fait :</h2>
+
+
