@@ -8,7 +8,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 <h1>Comment lancer le programme:</h1>
     -Installer les gems
     <br>
-    -Lancer le `bundle install`
+    -Lancer le bundle install
     <br>
     -Lancer 'app.rb' dans le terminal
 
@@ -27,7 +27,9 @@ db (base de donné)
     herault.json
     <br>
     townhalls.json
+    <br>
 lib (dossier comprenant les librairies du programme)
+    <br>
     app (différents partie du programme)
         json_read.rb (permet de lire les fichier JSON)
         <br>
@@ -38,7 +40,9 @@ lib (dossier comprenant les librairies du programme)
         townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
         <br>
         townhalls_scrapper.rb (permet de recuperer des données des mairies)
+        <br>
     views (interface)
+        <br>
         done.rb
         <br>
         index.rb
