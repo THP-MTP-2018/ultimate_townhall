@@ -16,44 +16,27 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 
 <h3>ultimate_townhall</h3>
 
-<h4>db(base de donnée)</h4>
-    - final.json
-    <br>
-    - aveyron.json
-    <br>
-    - gard.json
-    <br>
-    - herault.json
-    <br>
-<h4>lib(dossier comprenant les librairies du programme)</h4>
-   <h5>app(différents parties du programme)</h5>
-        - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
-        <br>
-        - townhalls_follower.rb (bot twitter pour follow les mairies)
-        <br>
-        - townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
-        <br>
-        - townhalls_scrapper.rb (permet de recuperer des données des mairies)
-        <br>
-        - .env (clé pour lancer le bot twitter)
-        <br>
-        <br>
-    <h5>views(interfaces)</h5>
-        - done.rb
-        <br>
-        - index.rb
-
-<br>
-<br>
-.gitignore
-<br>
-gemfile
-<br>
-gemfile.lock
-<br>
-README.md
-<br>
-app.rb (lance les différents programme)
+.ultimate_townhall
+├── .gitignore
+├── Gemfile
+├── gemfile.lock
+├── README.md
+├── app.rb (lance les différents programme)
+├── db
+│   ├── aveyron.json
+│   ├── gard.json
+│   ├── herault.json
+│   └── final.json
+└── lib(dossier comprenant les librairies du programme)
+    ├── app(différents parties du programme)
+        ├── townhalls_adder_to_db.rb (permet de créer les fichier JSON)
+        ├── townhalls_follower.rb (bot twitter pour follow les mairies)
+        ├── townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
+        ├── townhalls_scrapper.rb (permet de recuperer des données des mairies)
+        └──  .env (clé pour lancer le bot twitter)
+    └── views (interfaces)
+        ├── done.rb
+        └── index.rb
 
 <h2>GEM utilisées:</h2>
 
