@@ -16,6 +16,11 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 
 <h3>ultimate_townhall</h3>
 `
+```console
+foo@bar:~$ whoami
+foo
+```
+
 .ultimate_townhall
 ├── .gitignore
 ├── Gemfile
