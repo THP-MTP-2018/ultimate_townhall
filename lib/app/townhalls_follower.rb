@@ -20,17 +20,19 @@ class Bottwitter
       config.access_token        = ENV["TWITTER_API_TOKEN"]
       config.access_token_secret = ENV["TWITTER_API_TOKEN_SECRET"]
     end
-
+    @handle = []
     @cities.each do |city|
       begin
       city = "ville de " + city
       puts city
       @search = @client.user_search(city)
       puts "#{@client.follow(@search.first[:screen_name])}"
-    rescue
+      @handle << "@" + @search.first[:screen_name]
+      rescue
+      end
     end
-    end
-
+    @total = @h.zip(@handle)
+    puts @total
   end
 
   def json_read
@@ -40,8 +42,10 @@ class Bottwitter
     json3 = File.read('../../db/gard.json')
     obj = JSON.parse(json) + JSON.parse(json2) + JSON.parse(json3)
     @cities = []
+    @h = []
   obj.each do |h|
     @cities << h["name"]
+    @h << h
   end
 
   end
