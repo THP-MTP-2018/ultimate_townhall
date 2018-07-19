@@ -16,7 +16,8 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 ultimate_townhall
 
-<h2>db (base de donné)</h2>
+db (base de donné)
+    <br>
     aude.json
     <br>
     aveyron.json
@@ -26,8 +27,8 @@ ultimate_townhall
     herault.json
     <br>
     townhalls.json
-<h2>lib (dossier comprenant les librairies du programme)</h2>
-    <h2>app (différents partie du programme)</h2>
+lib (dossier comprenant les librairies du programme)
+    app (différents partie du programme)
         json_read.rb (permet de lire les fichier JSON)
         <br>
         townhalls_adder_to_db.rb (permet de créer les fichier JSON)
@@ -37,12 +38,12 @@ ultimate_townhall
         townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
         <br>
         townhalls_scrapper.rb (permet de recuperer des données des mairies)
-    <h2>views (interface)</h2>
+    views (interface)
         done.rb
         <br>
         index.rb
 
-        
+
 .gitignore
 <br>
 gemfile
