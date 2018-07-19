@@ -3,7 +3,7 @@
 L'équipe qui a participé au projet:
 @Rado @Jean @Anouar @Mathieu Chevet @skinito
 
-Le programme va permettre de récuperer les emails de différentes mairie de france dans un fichier JSON et d'envoyer un texte de présentation de l'école the hacking project a ces mêmes emails automatiquement. De plus, un bot twitter follow les @ des mairies concernées.
+Le programme va permettre de récuperer les emails de différentes mairie de france dans un fichier JSON et envoyer un texte de présentation de l'école the hacking project a ces mêmes emails automatiquement. De plus, un bot twitter follow les @ des mairies concernées.
 
 <h1>Comment lancer le programme:</h1>
     -Installer les gems
