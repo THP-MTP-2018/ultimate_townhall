@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 
 class Scrapper
-
+  # initialise tous les tableaux
   attr_accessor :townhal_mail_hash
   def initialize
     @arr_url = []
@@ -11,12 +11,12 @@ class Scrapper
     @arr_mail = []
     @townhal_mail_hash = []
   end
-
+  # appel les différents méthodes
   def get_all_the_urls_of_townhalls(url, url2, dep)
     url_townhal(url, url2)
     townhal_mail(dep)
   end
-
+  # récupere les différentes url de chaque mairies
   def url_townhal(url, url2)
     page = Nokogiri::HTML(open("#{url2}"))
     page.xpath('//a[@class = "lientxt"]').each do |node|
@@ -24,11 +24,12 @@ class Scrapper
       b = node.text
       @arr_townhal << b
       url_full = url + a[1].delete_prefix('.')
+      #appel  de la fonction page_townhal qui récupere les emails
       page_townhal(url_full)
       @arr_url << url_full
     end
   end
-
+  # récupere les emails
   def page_townhal(url)
     c = []
     begin
@@ -40,7 +41,7 @@ class Scrapper
     rescue
     end
   end
-
+  # methode qui crée le hash avec le nom, email et le departement 
   def townhal_mail(dep)
     size = @arr_mail.size - 1
     for i in 0..size

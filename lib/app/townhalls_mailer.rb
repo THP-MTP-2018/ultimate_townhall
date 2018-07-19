@@ -3,17 +3,15 @@ require 'gmail_xoauth'
 require 'mail'
 require 'json'
 
-#connexion
 class Mailer
-
   attr_accessor :mail, :commune, :tableau
-
+  #connexion à l'API Gmail
   def initialize
     @gmail = Gmail.connect("lescorsairesdemontpellier@gmail.com", "thpmtp2018")
     @mail = []
     @commune = []
   end
-
+  #récupere les données des fichiers Json
   def reader_json
     json = File.read('../../db/aveyron.json')
     json2 = File.read('../../db/gard.json')
@@ -25,7 +23,7 @@ class Mailer
     end
     @tableau = @mail.zip(@commune)
   end
-
+  #script à envoyer aux différerntes mairies
   def send_email(m,name)
     @gmail.deliver do
       to m
