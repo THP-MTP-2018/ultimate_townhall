@@ -17,7 +17,6 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 <h3>ultimate_townhall</h3>
 
 <h4>db(base de donné)</h4>
-    
     - aude.json
     <br>
     - aveyron.json
