@@ -4,7 +4,7 @@ require 'open-uri'
 
 class Scrapper
 
-  attr_accessor :townhal_mail_hash 
+  attr_accessor :townhal_mail_hash
   def initialize
     @arr_url = []
     @arr_townhal = []
@@ -17,7 +17,7 @@ class Scrapper
     townhal_mail(dep)
   end
 
-  def url_townhal(url, url2)  
+  def url_townhal(url, url2)
     page = Nokogiri::HTML(open("#{url2}"))
     page.xpath('//a[@class = "lientxt"]').each do |node|
       a = node.values
@@ -32,12 +32,12 @@ class Scrapper
   def page_townhal(url)
     c = []
     begin
-      page3 = Nokogiri::HTML(open("#{url}"))   
+      page3 = Nokogiri::HTML(open("#{url}"))
       page3.xpath('//td').each do |node|
         c << node.text
       end
       @arr_mail << c[7]
-    rescue 
+    rescue
     end
   end
 
