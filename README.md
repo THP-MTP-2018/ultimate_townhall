@@ -42,7 +42,7 @@ ultimate_townhall
         <br>
         index.rb
 
-        <br>
+        
 .gitignore
 <br>
 gemfile
