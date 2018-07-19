@@ -28,7 +28,7 @@ lib (dossier comprenant les librairies du programme)
         townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
         townhalls_scrapper.rb (permet de recuperer des données des mairies)
     views (interface)
-        done.rb
+        <h1>done.rb</h1>
         index.rb
 
 .gitignore
