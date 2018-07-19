@@ -1,3 +1,6 @@
+require_relative 'done.rb'
+
+
 class Menu
   def initialize
     @ligne1 = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
@@ -11,20 +14,24 @@ class Menu
   end
 
   def ask_choice
-
     begin
-    print "> "
-    choice = gets.chomp.to_i
-  end while choice < 1 || choice > 2
-  if choice == 1
-    puts "Envoi des emails"
-  elsif choice == 2
-    puts "Following"
+      print "> "
+      choice = gets.chomp.to_i
+    end while choice < 1 || choice > 3
+
+    if choice == 1
+      puts "Envoi des emails"
+      # perform
+
+    elsif choice == 2
+      puts "Following"
+      perform_2
+
+    elsif choice == 3
+      puts "Create JSON Files"
+      perform_3
     end
-
   end
-
-
 end
 
 menu = Menu.new

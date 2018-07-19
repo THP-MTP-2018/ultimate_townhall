@@ -42,14 +42,3 @@ class Mailer
     @gmail.logout
   end
 end
-
-
-def perform
-  s = Mailer.new
-  s.reader_json
-  s.tableau.each do |m|
-  s.send_email(m[0],m[1])
-  end
-end
-
-perform

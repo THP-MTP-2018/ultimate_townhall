@@ -1,3 +1,4 @@
+require_relative 'townhalls_adder_to_db.rb'
 require "dotenv"
 require "pry"
 require "twitter"
@@ -33,6 +34,8 @@ class Bottwitter
     end
     @total = @h.zip(@handle)
     puts @total
+    adder = To_JSON.new
+    adder.write_JSON("./../db/final.json", @total)
   end
 
   def json_read
@@ -43,17 +46,9 @@ class Bottwitter
     obj = JSON.parse(json) + JSON.parse(json2) + JSON.parse(json3)
     @cities = []
     @h = []
-  obj.each do |h|
-    @cities << h["name"]
-    @h << h
+    obj.each do |h|
+      @cities << h["name"]
+      @h << h
+    end
   end
-
-  end
-
 end
-
-bot = Bottwitter.new
-bot.json_read
-bot.bot_follow
-# input all the names here or grab them from your database or somewhere else.
-names = ['ville de MONTPELLIER', 'ville de MARSEILLE', 'ville de PARIS', 'ville de LYON']
