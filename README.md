@@ -14,40 +14,40 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 <h1>l'arborescence du dossier:</h1>
 
-ultimate_townhall
+A ultimate_townhall
 
-db (base de donné)
+1 db (base de donné)
     <br>
-    aude.json
+    - aude.json
     <br>
-    aveyron.json
+    - aveyron.json
     <br>
-    gard.json
+    - gard.json
     <br>
-    herault.json
+    - herault.json
     <br>
-    townhalls.json
+    - townhalls.json
     <br>
     <br>
-lib (dossier comprenant les librairies du programme)
+2 lib (dossier comprenant les librairies du programme)
     <br>
-    app (différents partie du programme)
-        json_read.rb (permet de lire les fichier JSON)
+   2.1 app (différents partie du programme)
+        - json_read.rb (permet de lire les fichier JSON)
         <br>
-        townhalls_adder_to_db.rb (permet de créer les fichier JSON)
+        - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
         <br>
-        townhalls_follower.rb (bot twitter pour follow les mairies)
+        - townhalls_follower.rb (bot twitter pour follow les mairies)
         <br>
-        townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
+        - townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
         <br>
-        townhalls_scrapper.rb (permet de recuperer des données des mairies)
+        - townhalls_scrapper.rb (permet de recuperer des données des mairies)
         <br>
         <br>
-    views (interface)
+    2.2 views (interface)
         <br>
-        done.rb
+        - done.rb
         <br>
-        index.rb
+        - index.rb
 
 
 .gitignore
@@ -62,16 +62,16 @@ app.rb (lance les différents programme)
 
 <h1>GEM utilisées:</h1>
 
-dotenv
+- dotenv
 <br>
-nokogiri
+- nokogiri
 <br>
-google_drive
+- google_drive
 <br>
-gmail
+- gmail
 <br>
-twitter
+- twitter
 <br>
-rubocop
+- rubocop
 <br>
-pry
+- pry
