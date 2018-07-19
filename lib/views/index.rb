@@ -2,6 +2,7 @@ require_relative 'done.rb'
 
 
 class Menu
+  # affiche le menu
   def initialize
     @ligne1 = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     @ligne2 = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
@@ -21,7 +22,7 @@ class Menu
 
     if choice == 1
       puts "Envoi des emails"
-      # perform
+      perform
 
     elsif choice == 2
       puts "Following"

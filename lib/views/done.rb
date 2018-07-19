@@ -1,7 +1,7 @@
 require_relative '../../lib/app/townhalls_follower.rb'
 require_relative '../../lib/app/townhalls_mailer.rb'
 require_relative '../../lib/app/townhalls_adder_to_db.rb'
-
+# lance le programme pour l'envoie des emails
 def perform
   s = Mailer.new
   s.reader_json
@@ -9,13 +9,13 @@ def perform
   s.send_email(m[0],m[1])
   end
 end
-
+# lance le programme pour follow les mairies
 def perform_2
   bot = Bottwitter.new
   bot.json_read
   bot.bot_follow
 end
-
+# lance le programme pour stocker les données scrappé dans les JSON
 def perform_3
   adder = To_JSON.new
   adder.get_mail("http://annuaire-des-mairies.com", "http://annuaire-des-mairies.com/herault.html", "herault")
