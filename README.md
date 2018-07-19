@@ -5,16 +5,18 @@ L'équipe qui a participé au projet:
 
 Le programme va permettre de récuperer les emails de différentes mairies de France dans un fichier JSON et envoyer un texte de présentation de l'école The hacking project a ces mêmes emails automatiquement. De plus, un bot twitter follow les @ des mairies concernées.
 
-<h1>Comment lancer le programme:</h1>
-    -Installer les gems
-    <br>
-    -Lancer le bundle install
-    <br>
-    -Lancer 'app.rb' dans le terminal
+## Lancer le programme  
 
-<h1>l'arborescence du dossier:</h1>
+Installer les gems
+```sh
+bundle install
+```
+Lancer le script dans le terminal
+```sh
+ruby app.rb
+```
 
-<h3>ultimate_townhall</h3>
+## Arborescence du dossier :
 
 ```
 .ultimate_townhall
@@ -40,7 +42,7 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
         └── index.rb
 ```
  
-<h2>GEM utilisées:</h2>
+## GEM utilisées :
 
 - `dotenv` secure login
 - `nokogiri` scrapper gem
@@ -49,20 +51,11 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 - `rubocop` synthax check
 - `pry` testing gem
 
-```ruby
-TownhallScrapper.list_from_url
-```
+## Travail realisé :
 
-```console
-foo@bar:~$ whoami
-foo
-```
-
-## Travail realisé
-
-Nous avons tout d’abord scrappé 3 départements: l’hérault, le Gard et l’aveyron. 
+Nous avons tout d’abord scrappé 3 départements: l’Hérault, le Gard et l’Aveyron. 
 Ensuite nous avons envoyer un email à chacune des mairies puis nous avons lancer un bot twitter pour les follow. 
-Et enfin nous avons mise en place une interface utilisateur pour lancer les différents programmes.
+Et enfin nous avons mis en place une interface utilisateur pour lancer les différents programmes.
 
 
 
