@@ -26,7 +26,7 @@ ruby app.rb
 ├── Gemfile
 ├── gemfile.lock
 ├── README.md
-├── app.rb [//]: <> (This is also a comment.)
+├── app.rb 
 ├── db
 │   ├── aveyron.json
 │   ├── gard.json
@@ -44,6 +44,8 @@ ruby app.rb
         └── index.rb
 ```
 lance les différents programme 
+[//]: <> (This is also a comment.)
+
 ## GEM utilisées :
 
 - `dotenv` secure login
