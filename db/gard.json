@@ -1,0 +1,887 @@
+[
+  {
+    "name": "AIGALIERS",
+    "email": "mairie.aigaliers@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AIGREMONT",
+    "email": "mairie-daigremont@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AIGUES MORTES",
+    "email": "contact@ville-aigues-mortes.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AIGUES VIVES",
+    "email": "mairie@aigues-vives.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AIGUEZE",
+    "email": "mairie.aigueze@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AIMARGUES",
+    "email": "murielrigard@aimargues.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ALES",
+    "email": "communication@ville-ales.net",
+    "departement": "gard"
+  },
+  {
+    "name": "ALLEGRE LES FUMADES",
+    "email": "mairie.allegre-les-fumades@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ALZON",
+    "email": "mairie.alzon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ANDUZE",
+    "email": "contact@mairie-anduze.com",
+    "departement": "gard"
+  },
+  {
+    "name": "ARAMON",
+    "email": "mairie.aramon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ARGILLIERS",
+    "email": "mairie.argilliers@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ARPAILLARGUES ET AUREILLAC",
+    "email": "contact@arpaillargues-aureilhac.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ARPHY",
+    "email": "mairie.arphy@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ARRE",
+    "email": "commune.arre@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ARRIGAS",
+    "email": "mairie.arrigas@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ASPERES",
+    "email": "mairie-asperes@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUBAIS",
+    "email": "contact.mairie@aubais.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUBORD",
+    "email": "mairie.aubord@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUBUSSARGUES",
+    "email": "aubussargues@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUJAC",
+    "email": "aujac.mairie@meshnet.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUJARGUES",
+    "email": "mairie-aujargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AULAS",
+    "email": "mairie.aulas@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AUMESSAS",
+    "email": "mairieaumessas@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "AVEZE",
+    "email": "maveze@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BAGARD",
+    "email": "accueil@ville-de-bagard.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BAGNOLS SUR CEZE",
+    "email": "mairie@bagnolssurceze.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BARJAC",
+    "email": "mairie.barjac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BARON",
+    "email": "maire30700baron@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BEAUCAIRE",
+    "email": "webmestre@beaucaire.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BEAUVOISIN",
+    "email": "accueil.beauvoisin@gmail.com",
+    "departement": "gard"
+  },
+  {
+    "name": "BELLEGARDE",
+    "email": "mairiebellegardegard@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BELVEZET",
+    "email": "mairie.belvezet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BERNIS",
+    "email": "mairie.bernis@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BESSEGES",
+    "email": "mairie-de-besseges@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BEZ ET ESPARON",
+    "email": "commune-bez-et-esparon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BEZOUCE",
+    "email": "mairie@bezouce.org",
+    "departement": "gard"
+  },
+  {
+    "name": "BLANDAS",
+    "email": "",
+    "departement": "gard"
+  },
+  {
+    "name": "BLAUZAC",
+    "email": "mairie.blauzac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOISSET ET GAUJAC",
+    "email": "mairie.boissetetgaujac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOISSIERES",
+    "email": "mairie-boissieres@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BONNEVAUX",
+    "email": "mairie.bonnevaux@free.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BORDEZAC",
+    "email": "mairie.bordezac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOUCOIRAN ET NOZIERES",
+    "email": "mairie.boucoiran@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOUILLARGUES",
+    "email": "mairie.bouillargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOUQUET",
+    "email": "mairie.bouquet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BOURDIC",
+    "email": "mairie.bourdic@laposte.net",
+    "departement": "gard"
+  },
+  {
+    "name": "BRAGASSARGUES",
+    "email": "mairie.braga@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BRANOUX LES TAILLADES",
+    "email": "mairie-branoux.les.taillades@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BREAU ET SALAGOSSE",
+    "email": "mairie.breau.et.salagosse@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BRIGNON",
+    "email": "ville.brignon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BROUZET LES ALES",
+    "email": "mairiebla@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "BROUZET LES QUISSAC",
+    "email": "mairie.brouzet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CABRIERES",
+    "email": "mairiecabrieres@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CAISSARGUES",
+    "email": "mairie.caissargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CALVISSON",
+    "email": "calvisson@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CAMPESTRE ET LUC",
+    "email": "mairie-campestre@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CANAULES ET ARGENTIERES",
+    "email": "canaules.argentieres@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CANNES ET CLAIRAN",
+    "email": "mairie-cannesclairan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CARDET",
+    "email": "mairiedecardet@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CARNAS",
+    "email": "mairie@carnas.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CARSAN",
+    "email": "mairie.carsan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CASSAGNOLES",
+    "email": "mairie.cassagnoles@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CASTELNAU VALENCE",
+    "email": "mairie.castelnau.valence@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CASTILLON DU GARD",
+    "email": "mairie@castillondugard.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CAUSSE BEGON",
+    "email": "mairie.caussebegon@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CAVEIRAC",
+    "email": "contact@mairie-caveirac.fr ",
+    "departement": "gard"
+  },
+  {
+    "name": "CAVILLARGUES",
+    "email": "mairie-cavillargues@nordnet.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CENDRAS",
+    "email": "mairie-cendras@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CHAMBON",
+    "email": "mairie-du-chambon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CHAMBORIGAUD",
+    "email": "mairie.chamborigaud@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CHUSCLAN",
+    "email": "mairie.chusclan@chusclan.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CLARENSAC",
+    "email": "mairie.clarensac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CODOGNAN",
+    "email": "mairie.codognan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CODOLET",
+    "email": "mairie@codolet.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COLLIAS",
+    "email": "la-mairie-de-collias@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COLLORGUES",
+    "email": "mairie.collorgues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COLOGNAC",
+    "email": "mairie-colognac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COMBAS",
+    "email": "combas.gard@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COMPS",
+    "email": "mairie.de.comps@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CONCOULES",
+    "email": "mairie.concoules@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CONGENIES",
+    "email": "mairie.congenies@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CONNAUX",
+    "email": "mairie-connaux@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CONQUEYRAC",
+    "email": "mairiedeconqueyrac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CORBES",
+    "email": "mairie@corbes.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CORCONNE",
+    "email": "corconne@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CORNILLON",
+    "email": "mairie-cornillon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "COURRY",
+    "email": "mairiecourry@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CRESPIAN",
+    "email": "",
+    "departement": "gard"
+  },
+  {
+    "name": "CROS",
+    "email": "communecros@nordnet.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "CRUVIERS LASCOURS",
+    "email": "ville-cruviers-lascours@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "DEAUX",
+    "email": "mairie.deaux@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "DIONS",
+    "email": "charpico@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "DOMAZAN",
+    "email": "mairie-domazan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "DOMESSARGUES",
+    "email": "",
+    "departement": "gard"
+  },
+  {
+    "name": "DOURBIES",
+    "email": "mairiededourbies@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "DURFORT ET ST MARTIN DE SOSSEN",
+    "email": "mairie.durfort@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ESTEZARGUES",
+    "email": "estezargues.mairie@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "EUZET",
+    "email": "commune.euzet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FLAUX",
+    "email": "mairiedeflaux@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FOISSAC",
+    "email": "mairie.foissac@laposte.net",
+    "departement": "gard"
+  },
+  {
+    "name": "FONS",
+    "email": "mairie.fons.outre.gardon@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FONS SUR LUSSAN",
+    "email": "mairie.fonsurlussan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FONTANES",
+    "email": "fontanes30@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FONTARECHES",
+    "email": "communedefontareches@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FOURNES",
+    "email": "mairiedefournes@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FOURQUES",
+    "email": "mairie.fourques@worldonline.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "FRESSAC",
+    "email": "mairie.fressac@laposte.net",
+    "departement": "gard"
+  },
+  {
+    "name": "GAGNIERES",
+    "email": "mairie.gagnieres@laposte.net",
+    "departement": "gard"
+  },
+  {
+    "name": "GAILHAN",
+    "email": "gailhan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GAJAN",
+    "email": "mairie.gajan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GALLARGUES LE MONTUEUX",
+    "email": "mairie@gallargues.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GARONS",
+    "email": "secretariat@garons.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GARRIGUES SAINTE EULALIE",
+    "email": "garrigues.ste.eulalie@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GAUJAC",
+    "email": "mairie-gaujac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GENERAC",
+    "email": "mairiegenerac@yahoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GENERARGUES",
+    "email": "mairie.generargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "GENOLHAC",
+    "email": "maire@mairie-genolhac.com",
+    "departement": "gard"
+  },
+  {
+    "name": "GOUDARGUES",
+    "email": "mairie.goudargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "ISSIRAC",
+    "email": "issirac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "JONQUIERES SAINT VINCENT",
+    "email": "mairie.jonquieres.stvincent@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "JUNAS",
+    "email": "mairie-de-junas@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA BASTIDE D ENGRAS",
+    "email": "la-bastide-dengras@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA BRUGUIERE",
+    "email": "commune-la-bruguiere@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA CADIERE ET CAMBO",
+    "email": "commune.cadiere.cambo@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA CALMETTE",
+    "email": "mairie.lacalmette@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA CAPELLE ET MASMOLENE",
+    "email": "lacapelle.masmolene@gmail.com",
+    "departement": "gard"
+  },
+  {
+    "name": "LA GRAND COMBE",
+    "email": "mairie@lagrandcombe.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LAMELOUZE",
+    "email": "communedelamelouze@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LANGLADE",
+    "email": "",
+    "departement": "gard"
+  },
+  {
+    "name": "LANUEJOLS",
+    "email": "mairie@lanuejols.com",
+    "departement": "gard"
+  },
+  {
+    "name": "LA ROQUE SUR CEZE",
+    "email": "mairie.laroquesurceze@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA ROUVIERE",
+    "email": "mairie.rouviere@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LASALLE",
+    "email": "mairielasalle@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LAUDUN L ARDOISE",
+    "email": "fvaneecloo@laudunlardoise.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LAVAL PRADEL",
+    "email": "mairiedelavalpradel@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LAVAL SAINT ROMAN",
+    "email": "communelavalstroman@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LA VERNAREDE",
+    "email": "ville.lavernarede@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE CAILAR",
+    "email": "communelecailar@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LECQUES",
+    "email": "mairie-de-lecques@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LEDENON",
+    "email": "contact@mairie-de-ledenon.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LEDIGNAN",
+    "email": "mairieledignan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE GARN",
+    "email": "mairie-le-garn@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE GRAU DU ROI",
+    "email": "communication@ville-legrauduroi.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE MARTINET",
+    "email": "mairie.lemartinet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE PIN",
+    "email": "mairie-le-pin2@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LES ANGLES",
+    "email": "contact@lesangles30.eu",
+    "departement": "gard"
+  },
+  {
+    "name": "LES MAGES",
+    "email": "mairie.les.mages@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LES PLANS",
+    "email": "commune-les-plans@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LES PLANTIERS",
+    "email": "les.plantiers@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LES SALLES DU GARDON",
+    "email": "info@comune.saint-vincent.ao.it",
+    "departement": "gard"
+  },
+  {
+    "name": "L ESTRECHURE",
+    "email": "mairie.l-estrechure@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LE VIGAN",
+    "email": "mairie-le-vigan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LEZAN",
+    "email": "mairie.lezan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LIOUC",
+    "email": "mairie.de.liouc@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LIRAC",
+    "email": "infos@mairie-lirac.com",
+    "departement": "gard"
+  },
+  {
+    "name": "LOGRIAN FLORIAN",
+    "email": "mairielogrian@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "LUSSAN",
+    "email": "mairie-de-lussan@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MALONS ET ELZE",
+    "email": "malonsetelze@nordnet.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MANDAGOUT",
+    "email": "mairie.mandagout@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MANDUEL",
+    "email": "mairiedemanduel@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MARGUERITTES",
+    "email": "marguerittes.mairie@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MARS",
+    "email": "mairie.mars@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MARTIGNARGUES",
+    "email": "communedemartignargues@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MARUEJOLS LES GARDON",
+    "email": "mairie-maruejolslesgardon@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MASSANES",
+    "email": "mairie.massanes@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MASSILLARGUES ATTUECH",
+    "email": "mairie.massillargues-atuech@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MAURESSARGUES",
+    "email": "mairie.mauressargues@laposte.net",
+    "departement": "gard"
+  },
+  {
+    "name": "MEJANNES LE CLAP",
+    "email": "mairie.mejannesclap@orange.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MEJANNES LES ALES",
+    "email": "mairie.mejanneslesales@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MEYNES",
+    "email": "mairiedemeynes@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MEYRANNES",
+    "email": "mairie.meyrannes@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MIALET",
+    "email": "communedemialet@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MILHAUD",
+    "email": "ville.milhaud@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MOLIERES CAVAILLAC",
+    "email": "mairie.molieres-cavaillac@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MOLIERES SUR CEZE",
+    "email": "mairie.molieres.sur.ceze@wanadoo.fr",
+    "departement": "gard"
+  },
+  {
+    "name": "MONOBLET",
+    "email": "communedemonoblet@wanadoo.fr",
+    "departement": "gard"
+  }
+]

@@ -2,11 +2,9 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-
 class Scrapper
 
-    attr_accessor :townhal_mail_hash
-
+  attr_accessor :townhal_mail_hash 
   def initialize
     @arr_url = []
     @arr_townhal = []
@@ -14,12 +12,12 @@ class Scrapper
     @townhal_mail_hash = []
   end
 
-  def get_all_the_urls_of_val_doise_townhalls(url, url2)
+  def get_all_the_urls_of_townhalls(url, url2, dep)
     url_townhal(url, url2)
-    townhal_mail
+    townhal_mail(dep)
   end
 
-  def url_townhal(url, url2)
+  def url_townhal(url, url2)  
     page = Nokogiri::HTML(open("#{url2}"))
     page.xpath('//a[@class = "lientxt"]').each do |node|
       a = node.values
@@ -34,20 +32,20 @@ class Scrapper
   def page_townhal(url)
     c = []
     begin
-      page3 = Nokogiri::HTML(open("#{url}"))
+      page3 = Nokogiri::HTML(open("#{url}"))   
       page3.xpath('//td').each do |node|
         c << node.text
       end
       @arr_mail << c[7]
-    rescue
-  puts 'erreur'
+    rescue 
     end
   end
 
-  def townhal_mail
+  def townhal_mail(dep)
     size = @arr_mail.size - 1
     for i in 0..size
-      @townhal_mail_hash[i] = {"name" => @arr_townhal[i], "email" => @arr_mail[i]}
+      @townhal_mail_hash[i] = {"name" => @arr_townhal[i], "email" => @arr_mail[i], "departement" => dep}
+      puts @townhal_mail_hash[i]
     end
   end
 end
