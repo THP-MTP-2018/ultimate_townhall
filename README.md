@@ -37,6 +37,7 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
     └── views (interfaces)
         ├── done.rb
         └── index.rb
+```
  
 <h2>GEM utilisées:</h2>
 
