@@ -33,7 +33,7 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
     │   ├── townhalls_follower.rb (bot twitter pour follow les mairies)
     │   ├── townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
     │   ├── townhalls_scrapper.rb (permet de recuperer des données des mairies)
-    │   └──  .env (clé pour lancer le bot twitter)
+    │   └──  env (clé pour lancer le bot twitter)
     └── views (interfaces)
         ├── done.rb
         └── index.rb
