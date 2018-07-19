@@ -12,11 +12,9 @@ class Mailer
     @gmail = Gmail.connect("lescorsairesdemontpellier@gmail.com", "thpmtp2018")
     @mail = []
     @commune = []
-
   end
 
   def reader_json
-
     json = File.read('../../db/aveyron.json')
     json2 = File.read('../../db/gard.json')
     json3 = File.read('../../db/herault.json')
@@ -26,11 +24,9 @@ class Mailer
       @commune << h['name']
     end
     @tableau = @mail.zip(@commune)
-    puts
   end
 
   def send_email(m,name)
-
     @gmail.deliver do
       to m
       subject "École The Hacking Project "
