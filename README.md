@@ -48,6 +48,10 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 - `rubocop` synthax check
 - `pry` testing gem
 
+```ruby
+TownhallScrapper.list_from_url
+```
+
 
 ## Travail realisé
 
