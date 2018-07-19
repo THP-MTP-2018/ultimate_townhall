@@ -25,13 +25,8 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
     <br>
     - herault.json
     <br>
-    - townhalls.json
-    <br>
-    <br>
 <h4>lib(dossier comprenant les librairies du programme)</h4>
    <h5>app(différents parties du programme)</h5>
-        - json_read.rb (permet de lire les fichier JSON)
-        <br>
         - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
         <br>
         - townhalls_follower.rb (bot twitter pour follow les mairies)
@@ -70,11 +65,11 @@ app.rb (lance les différents programme)
 - `pry` testing gem
 
 
+## Travail realisé
 
+Nous avons tout d’abord scrappé 3 départements: l’hérault, le Gard et l’aveyron. 
+Ensuite nous avons envoyer un email à chacune des mairies puis nous avons lancer un bot twitter pour les follow. 
+Et enfin nous avons mise en place une interface utilisateur pour lancer les différents programmes.
 
-
-
-
-<h2>ce qui a été fait :</h2>
 
 
