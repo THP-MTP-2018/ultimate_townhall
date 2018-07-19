@@ -12,7 +12,7 @@ class Scrapper
     @townhal_mail_hash = []
   end
 
-  def get_all_the_urls_of_val_doise_townhalls(url, url2, dep)
+  def get_all_the_urls_of_townhalls(url, url2, dep)
     url_townhal(url, url2)
     townhal_mail(dep)
   end
