@@ -4,12 +4,7 @@ require "twitter"
 
 Dotenv.load
 
-class follower
-  def inizialize
-    
-  end
-end
-
+# quelques lignes qui enregistrent les clés d'APIs
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = ENV["TWITTER_API_KEY"]
   config.consumer_secret     = ENV["TWITTER_API_KEY_SECRET"]
@@ -17,6 +12,18 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV["TWITTER_API_TOKEN_SECRET"]
 end
 
-search.each do |handle|
-  client.follow(handle)
+class Followmairies
+
+  def initialze(city)
+    names.each do |name|
+      @twitter = client.user_search(name)
+      puts "#{client.follow(@twitter.first[:screen_name])}"
+    end
+  end
+  
 end
+
+# input all the names here or grab them from your database or somewhere else.
+names = ['ville de MONTPELLIER', 'ville de MARSEILLE', 'ville de PARIS', 'ville de LYON']
+
+
