@@ -8,7 +8,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 <h1>Comment lancer le programme:</h1>
     -Installer les gems
     <br>
-    -Lancer le 'bundle install'
+    -Lancer le `bundle install`
     <br>
     -Lancer 'app.rb' dans le terminal
 
