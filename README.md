@@ -15,7 +15,7 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 <h1>l'arborescence du dossier:</h1>
 
 <h3>ultimate_townhall</h3>
-
+```sh
 .ultimate_townhall
 ├── .gitignore
 ├── Gemfile
@@ -37,7 +37,7 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
     └── views (interfaces)
         ├── done.rb
         └── index.rb
-
+```
 <h2>GEM utilisées:</h2>
 
 - `dotenv` secure login
