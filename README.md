@@ -14,9 +14,9 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 <h1>l'arborescence du dossier:</h1>
 
-A ultimate_townhall
+<h3>ultimate_townhall</h3>
 
-1 db (base de donné)
+<h4>db</h4> (base de donné)
     <br>
     - aude.json
     <br>
@@ -29,9 +29,9 @@ A ultimate_townhall
     - townhalls.json
     <br>
     <br>
-2 lib (dossier comprenant les librairies du programme)
+<h4>lib</h4> (dossier comprenant les librairies du programme)
     <br>
-   2.1 app (différents partie du programme)
+   <h5>app</h5> (différents partie du programme)
         - json_read.rb (permet de lire les fichier JSON)
         <br>
         - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
@@ -43,7 +43,7 @@ A ultimate_townhall
         - townhalls_scrapper.rb (permet de recuperer des données des mairies)
         <br>
         <br>
-    2.2 views (interface)
+    <h5>views</h5> (interface)
         <br>
         - done.rb
         <br>
@@ -60,7 +60,7 @@ README.md
 <br>
 app.rb (lance les différents programme)
 
-<h1>GEM utilisées:</h1>
+<h2>GEM utilisées:</h2>
 
 - dotenv
 <br>
