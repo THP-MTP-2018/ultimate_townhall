@@ -16,7 +16,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 <h3>ultimate_townhall</h3>
 
-<h4>db</h4> (base de donné)
+<h4>db(base de donné)</h4>
     <br>
     - aude.json
     <br>
@@ -29,9 +29,9 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
     - townhalls.json
     <br>
     <br>
-<h4>lib</h4> (dossier comprenant les librairies du programme)
+<h4>lib(dossier comprenant les librairies du programme)</h4>
     <br>
-   <h5>app</h5> (différents partie du programme)
+   <h5>app(différents partie du programme)</h5>
         - json_read.rb (permet de lire les fichier JSON)
         <br>
         - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
@@ -43,7 +43,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
         - townhalls_scrapper.rb (permet de recuperer des données des mairies)
         <br>
         <br>
-    <h5>views</h5> (interface)
+    <h5>views(interface)</h5>
         <br>
         - done.rb
         <br>
@@ -62,16 +62,16 @@ app.rb (lance les différents programme)
 
 <h2>GEM utilisées:</h2>
 
-- dotenv
+-dotenv
 <br>
-- nokogiri
+-nokogiri
 <br>
-- google_drive
+-google_drive
 <br>
-- gmail
+-mail
 <br>
-- twitter
+-twitter
 <br>
-- rubocop
+-rubocop
 <br>
-- pry
+-pry
