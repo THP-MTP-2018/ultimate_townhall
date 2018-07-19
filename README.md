@@ -1,4 +1,6 @@
-<h1>Projet validant du 19 juillet 2019</h1>
+# Projet validant du 19 juillet 2019
+
+## Introduction 
 
 L'équipe qui a participé au projet:
 @Rado @Jean @Anouar @Mathieu Chevet @skinito
@@ -11,7 +13,7 @@ Installer les gems
 ```sh
 bundle install
 ```
-Lancer le script dans le terminal
+Commande pour lancer le script dans le terminal
 ```sh
 ruby app.rb
 ```
@@ -24,7 +26,7 @@ ruby app.rb
 ├── Gemfile
 ├── gemfile.lock
 ├── README.md
-├── app.rb (lance les différents programme)
+├── app.rb [//]: <> (This is also a comment.)
 ├── db
 │   ├── aveyron.json
 │   ├── gard.json
@@ -36,12 +38,12 @@ ruby app.rb
     │   ├── townhalls_follower.rb (bot twitter pour follow les mairies)
     │   ├── townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
     │   ├── townhalls_scrapper.rb (permet de recuperer des données des mairies)
-    │   └──  env (clé pour lancer le bot twitter)
+    │   └── .env (clé pour lancer le bot twitter)
     └── views (interfaces)
         ├── done.rb
         └── index.rb
 ```
- 
+lance les différents programme 
 ## GEM utilisées :
 
 - `dotenv` secure login
