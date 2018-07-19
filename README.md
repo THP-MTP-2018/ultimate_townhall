@@ -17,7 +17,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 <h3>ultimate_townhall</h3>
 
 <h4>db(base de donné)</h4>
-    <br>
+    
     - aude.json
     <br>
     - aveyron.json
@@ -30,7 +30,6 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
     <br>
     <br>
 <h4>lib(dossier comprenant les librairies du programme)</h4>
-    <br>
    <h5>app(différents partie du programme)</h5>
         - json_read.rb (permet de lire les fichier JSON)
         <br>
@@ -44,7 +43,6 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
         <br>
         <br>
     <h5>views(interface)</h5>
-        <br>
         - done.rb
         <br>
         - index.rb
