@@ -3,7 +3,7 @@
 L'équipe qui a participé au projet:
 @Rado @Jean @Anouar @Mathieu Chevet @skinito
 
-Le programme va permettre de récuperer les emails de différentes mairie de france dans un fichier JSON et envoyer un texte de présentation de l'école the hacking project a ces mêmes emails automatiquement. De plus, un bot twitter follow les @ des mairies concernées.
+Le programme va permettre de récuperer les emails de différentes mairies de France dans un fichier JSON et envoyer un texte de présentation de l'école The hacking project a ces mêmes emails automatiquement. De plus, un bot twitter follow les @ des mairies concernées.
 
 <h1>Comment lancer le programme:</h1>
     -Installer les gems
@@ -16,8 +16,8 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 <h3>ultimate_townhall</h3>
 
-<h4>db(base de donné)</h4>
-    - aude.json
+<h4>db(base de donnée)</h4>
+    - final.json
     <br>
     - aveyron.json
     <br>
@@ -29,7 +29,7 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
     <br>
     <br>
 <h4>lib(dossier comprenant les librairies du programme)</h4>
-   <h5>app(différents partie du programme)</h5>
+   <h5>app(différents parties du programme)</h5>
         - json_read.rb (permet de lire les fichier JSON)
         <br>
         - townhalls_adder_to_db.rb (permet de créer les fichier JSON)
@@ -40,8 +40,10 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
         <br>
         - townhalls_scrapper.rb (permet de recuperer des données des mairies)
         <br>
+        - .env (clé pour lancer le bot twitter)
         <br>
-    <h5>views(interface)</h5>
+        <br>
+    <h5>views(interfaces)</h5>
         - done.rb
         <br>
         - index.rb
