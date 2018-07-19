@@ -29,11 +29,11 @@ Le programme va permettre de récuperer les emails de différentes mairies de Fr
 │   └── final.json
 └── lib(dossier comprenant les librairies du programme)
     ├── app(différents parties du programme)
-        ├── townhalls_adder_to_db.rb (permet de créer les fichier JSON)
-        ├── townhalls_follower.rb (bot twitter pour follow les mairies)
-        ├── townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
-        ├── townhalls_scrapper.rb (permet de recuperer des données des mairies)
-        └──  .env (clé pour lancer le bot twitter)
+    │   ├── townhalls_adder_to_db.rb (permet de créer les fichier JSON)
+    │   ├── townhalls_follower.rb (bot twitter pour follow les mairies)
+    │   ├── townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
+    │   ├── townhalls_scrapper.rb (permet de recuperer des données des mairies)
+    │   └──  .env (clé pour lancer le bot twitter)
     └── views (interfaces)
         ├── done.rb
         └── index.rb
