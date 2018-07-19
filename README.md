@@ -28,6 +28,7 @@ db (base de donné)
     <br>
     townhalls.json
     <br>
+    <br>
 lib (dossier comprenant les librairies du programme)
     <br>
     app (différents partie du programme)
@@ -40,6 +41,7 @@ lib (dossier comprenant les librairies du programme)
         townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
         <br>
         townhalls_scrapper.rb (permet de recuperer des données des mairies)
+        <br>
         <br>
     views (interface)
         <br>
