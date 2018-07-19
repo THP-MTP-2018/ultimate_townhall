@@ -7,7 +7,9 @@ Le programme va permettre de récuperer les emails de différentes mairie de fra
 
 <h1>Comment lancer le programme:</h1>
     -Installer les gems
+    <br>
     -Lancer le 'bundle install'
+    <br>
     -Lancer 'app.rb' dans le terminal
 
 <h1>l'arborescence du dossier:</h1>
@@ -16,33 +18,53 @@ ultimate_townhall
 
 <h2>db (base de donné)</h2>
     aude.json
+    <br>
     aveyron.json
+    <br>
     gard.json
+    <br>
     herault.json
+    <br>
     townhalls.json
 <h2>lib (dossier comprenant les librairies du programme)</h2>
     <h2>app (différents partie du programme)</h2>
         json_read.rb (permet de lire les fichier JSON)
+        <br>
         townhalls_adder_to_db.rb (permet de créer les fichier JSON)
+        <br>
         townhalls_follower.rb (bot twitter pour follow les mairies)
+        <br>
         townhalls_mailer.rb (permet d'envoyer un email a toutes les mairies)
+        <br>
         townhalls_scrapper.rb (permet de recuperer des données des mairies)
     <h2>views (interface)</h2>
         done.rb
+        <br>
         index.rb
 
+        <br>
 .gitignore
+<br>
 gemfile
+<br>
 gemfile.lock
+<br>
 README.md
+<br>
 app.rb (lance les différents programme)
 
 <h1>GEM utilisées:</h1>
 
 dotenv
+<br>
 nokogiri
+<br>
 google_drive
+<br>
 gmail
+<br>
 twitter
+<br>
 rubocop
+<br>
 pry
