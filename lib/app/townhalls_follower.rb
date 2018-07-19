@@ -6,7 +6,7 @@ Dotenv.load
 
 class follower
   def inizialize
-    
+   #commentaire 
   end
 end
 
