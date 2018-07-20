@@ -26,14 +26,14 @@ ruby app.rb
 ├── Gemfile
 ├── gemfile.lock
 ├── README.md
-├── app.rb   // lance les différents programmes
+├── app.rb          // lance les différents programmes
 ├── db
 │   ├── aveyron.json
 │   ├── gard.json
 │   ├── herault.json
 │   └── final.json
-└── lib     // dossier comprenant les librairies du programme
-    ├── app       // différents parties du programme
+└── lib             // dossier comprenant les librairies du programme
+    ├── app                     // différents parties du programme
     │   ├── townhalls_adder_to_db.rb      // permet de créer les fichier JSON
     │   ├── townhalls_follower.rb         // bot twitter pour follow les mairies)
     │   ├── townhalls_mailer.rb           // permet d'envoyer un email a toutes les mairies
