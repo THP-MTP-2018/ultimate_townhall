@@ -7,7 +7,7 @@ class Mailer
   attr_accessor :mail, :commune, :tableau
   #connexion à l'API Gmail
   def initialize
-    @gmail = Gmail.connect("lescorsairesdemontpellier@gmail.com", "thpmtp2018")
+    @gmail = Gmail.connect("", "")
     @mail = []
     @commune = []
   end
